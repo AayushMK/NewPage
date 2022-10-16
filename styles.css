@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hheader{
+    height: 5vh;
+    width: 100%;
+    background-color: #00796B;
+    padding-right: 90px;
+    padding-left: 90px;
+    box-sizing: border-box;
+    display: flex;
+}
+.contact{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.email{
+    width: 40%;
+}
+
+.social{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.social .icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    justify-content: center;
+}
+
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color: #008374;
+    padding-right: 90px;
+    padding-left: 90px;
+    box-sizing: border-box;
+    display: flex;
+}
+.logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+}
+
+
+.nav{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navele{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.sbody{
+    height: 50vh;
+    width: 100%;
+    background-color: #008374;
+    padding-right: 90px;
+    padding-left: 90px;
+    box-sizing: border-box;
+}
+
+.content{
+    height: 35vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    margin-top: -60px;
+    
+}
+
+.card{
+    width: 200px;
+    height: 250px;
+    background-color: #008D7D;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .icon{
+    height: 50%;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card .cardtext{
+    text-align: center;
+}
+
+
+
